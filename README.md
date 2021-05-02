@@ -7,7 +7,7 @@ In this repository I have a collection of my experience and projects.
 Project Name: StockApp 
 
 
-### Story: 1 [BASE html](*Base-html) 
+## Story: 1 [BASE html](*Base-html) 
 
   
   
