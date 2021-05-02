@@ -7,7 +7,7 @@ In this repository I have a collection of my experience and projects.
 Project Name: StockApp 
 
 
-## Story: 1 [BASE html](*Base-html) 
+### Story: 1 Base html
 
   
   
@@ -25,25 +25,11 @@ Project Name: StockApp
   
 ### Story: 3 URLS  
  
-  
-    from django.urls import path
-    from . import views
-
-    urlpatterns = [
-
-    path('', views.home, name='StockApp_home'),
-    path('StockApp_base/', views.base, name='StockApp_base'),
-    path('StockApp_newstock/', views.new, name='StockApp_newstock'),
-    path('StockApp_Watchlist/', views.watchlist, name='StockApp_Watchlist'),
-    path('<int:pk>/StockApp_Details/', views.details, name='StockApp_Details'),
-    path('<int:pk>/StockApp_confirm/', views.confirm, name="StockApp_confirm"),
-    path('<int:pk>/StockApp_edit/', views.edit, name='StockApp_edit'),
-
-    ]
 
   urls.py is straight forward I had some delays with passing in the pk as int syntax. Had to double check the info needed in the views and the info I sent through the html page. 
 
-  
+  ![urls](https://user-images.githubusercontent.com/63297077/116826037-4ac32080-ab4f-11eb-86be-cca82dab4134.png)
+
   
 ### Story: 4 WATCHLIST HTML AND FUNCTION 
   
@@ -63,13 +49,12 @@ Project Name: StockApp
 
 ## Conclusion 
 
-  In conclusion this project has helped fill numerous understanding gaps in my Django and Python knowledge. 
+  In conclusion this project has helped fill numerous understanding gaps in my Django and Python knowledge. There were some big challenges and small things that tripped me up but with some help I was able to get through them without getting too frustrated. Upon request I can share the my personal branch but becuase it was a group project I am unable to share the source code and or entire project repository. After my resume is in order I will continue with this project and work towards adding an API to automatically populate the database.  
 
-* Jump to: [Base html](#Base-html),[Model](#Model),[urls](#urls), [html and Function](#html-and-Function),[Delete and Edit](#Delete-and-Edit)  *
 
 ## Other Skills Learned 
 *  Naming conventions for different file types and variables 
 *  Formatting and importing of CSS sheets 
 *  Version Control on a group project 
 *  Working with others to trouble shoot and fix minor or even major problems 
-*  
+*  Working with deadlines and goals 
