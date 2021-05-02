@@ -1,12 +1,14 @@
 # Resume Project 
-In this repository I have a collection of my experience and projects. 
 
 ##Introduction 
+
+In this repository I have a collection of my experience and projects. 
 
 Project Name: StockApp 
 
 
-Stroy: 1 BASE HTML (#Base-html)
+Stroy: 1 BASE HTML 
+*[Base HTML](#Base-html)
   
   
 ![Base_Commented](https://user-images.githubusercontent.com/63297077/116815203-bab6b400-ab19-11eb-8885-030d30c35a68.PNG)
