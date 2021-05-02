@@ -7,8 +7,8 @@ In this repository I have a collection of my experience and projects.
 Project Name: StockApp 
 
 
-Stroy: 1 BASE HTML 
-*[Base HTML](#Base-html)
+### Story: 1 [BASE HTML](*Base-html) 
+
   
   
 ![Base_Commented](https://user-images.githubusercontent.com/63297077/116815203-bab6b400-ab19-11eb-8885-030d30c35a68.PNG)
@@ -17,13 +17,13 @@ Stroy: 1 BASE HTML
   
   
 
-Story: 2 Model 
+### Story: 2 Model 
   
  ![MODEL_COMMENTED](https://user-images.githubusercontent.com/63297077/116815905-0028b080-ab1d-11eb-8937-68e769efd51c.PNG)
  The Model was one of the easier sections of this project. I was familiar with the needed import and the different fields that could be used. The part that took the longest funny enough was deciding what variables I wanted to track. Name was a given, Market Cap could be useful for sorting later, Time Stamp because the data is time sensitive and old data isn't very actionable, and price was essential. 
   
   
-Story: 3 URLS  
+### Story: 3 URLS  
  
   
     from django.urls import path
@@ -45,7 +45,7 @@ Story: 3 URLS
 
   
   
-Story: 4 WATCHLIST HTML AND FUNCTION 
+### Story: 4 WATCHLIST HTML AND FUNCTION 
   
   StockApp Watchlist displays all the objects (stocks) in the database using a for loop. Every item gets its own box with all the data fields in the Model displayed. 
   
@@ -55,19 +55,21 @@ Story: 4 WATCHLIST HTML AND FUNCTION
   ![Top of functions no comments](https://user-images.githubusercontent.com/63297077/116819533-a8df0c00-ab2d-11eb-9009-86e4d838806c.PNG)
 
   
-Story: 5 DELETE AND EDIT 
+### Story: 5 DELETE AND EDIT 
   
   The delete and edit function was a challenge I was having problems with the request method was GET only and couldn't get it to send as a post. So, I removed the else statement from my confirm preventing it from just trying to send the user to a different page, preventing the if statement from initiating. I got some assistance from an instructor and reformatted my function removing some redundant code that linked 1 variable to another name. 
   
  ![FUNCTIONS PIC](https://user-images.githubusercontent.com/63297077/116820049-44717c00-ab30-11eb-8cee-077c44bec022.PNG)
 
-CONCLUSION AND THINGS TO IMPOROVE AND RESEARCH *cough *cough CSS 
+## Conclusion 
 
-## Jump To: [Base HTML](#Base-html)
+  In conclusion this project has helped fill numerous understanding gaps in my Django and Python knowledge. 
+
+* Jump to: [Base html](#Base-html),[Model](#Model),[urls](#urls), [html and Function](#html-and-Function),[Delete and Edit](#Delete-and-Edit)  *
 
 ## Other Skills Learned 
-*
-*
-*
-*
-*
+*  Naming conventions for different file types and variables 
+*  Formatting and importing of CSS sheets 
+*  Version Control on a group project 
+*  Working with others to trouble shoot and fix minor or even major problems 
+*  
